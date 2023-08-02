@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+}
+.container {
+  max-width: 80vw;
+}
+.nb {
+  display: flex;
+  height: 50px;
+  font-family: "Abel";
+}
+.nb li {
+  list-style: none;
+  margin: 0 15px;
+}
+.ft {
+  font-family: Mate SC;
+  font-size: x-large;
+}
+.tp-left {
+  width: 45%;
+  padding-top: 15px;
+}
+.tp-right {
+  width: 45%;
+}
+.S1 {
+  min-height: 80vh;
+}
+.S2 {
+    padding-top: 40px;
+}
+.S2 h1 {
+  font-size: 2.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.S2 P {
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+.bxs{
+    margin-bottom: 5vw;
+}
+.bx {
+  padding: 10px 0;
+  margin: 20px 20px;
+  min-width: 23vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+.hgl{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+.bx h2{
+    font-size: 2rem;
+    padding: 0.8vw;
+}
+.bx ul {
+  list-style: none;
+}
+.bx ul li {
+  margin: 8px;
+}
+.exp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.S3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.S3 table th{ 
+    width: 23vw; 
+    font-size: 1.5rem;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.S3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.S3 h1{
+    font-size: 2.3rem;
+}
+
+.S3{
+    padding: 40px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+.codelogo {
+    width: 150px;
+}
